@@ -8,9 +8,14 @@ Main purpose is studying React so I didn't code Server side so much.
 
   - How to use react with Rails.
     -- There're some ways to use react with Rails and I chose the way using Rails-API this time.
-  - using React Router
+  - making Rails API
+  - making a badic SPA with React
+  - setting router with React Router
   - understanding components
-  - axios
+  - axios https://github.com/axios/axios : is a HTTP client library
+  - used a style "CSS in JS"
+    -- Meterial UI https://material-ui.com/
+    -- styled-components https://styled-components.com/
 
 - Version
   Ruby v2.5.7

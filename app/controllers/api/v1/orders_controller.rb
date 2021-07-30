@@ -4,7 +4,7 @@ module Api
       def create
         posted_orderings = Ordering.where(id: params[:ordering_ids])
         order = Order.new(
-          restaurant_id: posted_line_foods.first.restaurant_id,
+          restaurant_id: posted_orderings.first.restaurant_id,
           total_price: total_price(posted_orderings),
         )
         if order.save_with_update_orderings!(posted_orderings)
